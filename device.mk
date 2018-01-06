@@ -108,8 +108,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.msm8998
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.cp_system_other_odex=1
+#PRODUCT_PROPERTY_OVERRIDES += \
+    #ro.cp_system_other_odex=1
 
 AB_OTA_UPDATER := true
 
