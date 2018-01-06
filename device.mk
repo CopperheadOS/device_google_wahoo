@@ -90,6 +90,10 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_verifier
 
+ifeq ($(OFFICIAL_BUILD),true)
+    PRODUCT_PACKAGES += Updater
+endif
+
 PRODUCT_PACKAGES += \
     bootctrl.msm8998
 
